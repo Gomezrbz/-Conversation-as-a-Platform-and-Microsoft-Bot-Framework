@@ -1,0 +1,92 @@
+{
+  "luis_schema_version": "2.2.0",
+  "versionId": "0.2",
+  "name": "Trending Images",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "SearchByCategory"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "CategoryType",
+      "subLists": [
+        {
+          "canonicalForm": "People",
+          "list": [
+            "Person"
+          ]
+        },
+        {
+          "canonicalForm": "Nature",
+          "list": []
+        },
+        {
+          "canonicalForm": "Wallpaper",
+          "list": [
+            "Wallpapers"
+          ]
+        },
+        {
+          "canonicalForm": "Animal",
+          "list": [
+            "Animals"
+          ]
+        }
+      ]
+    }
+  ],
+  "regex_entities": [],
+  "bing_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "find images of people",
+      "intent": "SearchByCategory",
+      "entities": []
+    },
+    {
+      "text": "find trending animal images",
+      "intent": "SearchByCategory",
+      "entities": []
+    },
+    {
+      "text": "find trending images of animals",
+      "intent": "SearchByCategory",
+      "entities": []
+    },
+    {
+      "text": "find trending people images",
+      "intent": "SearchByCategory",
+      "entities": []
+    },
+    {
+      "text": "get animal images",
+      "intent": "SearchByCategory",
+      "entities": []
+    },
+    {
+      "text": "get trending animal images",
+      "intent": "SearchByCategory",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "None",
+      "entities": []
+    }
+  ]
+}
