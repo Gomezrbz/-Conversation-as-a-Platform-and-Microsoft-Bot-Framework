@@ -1,0 +1,479 @@
+{
+  "luis_schema_version": "2.2.0",
+  "versionId": "0.1",
+  "name": "Discovery",
+  "desc": "Default Intents for Azure Bot Service V2",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Cancel"
+    },
+    {
+      "name": "DiscoverContent"
+    },
+    {
+      "name": "Greeting"
+    },
+    {
+      "name": "Help"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "SearchNews"
+    }
+  ],
+  "entities": [
+    {
+      "name": "SearchQuery"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "regex_entities": [],
+  "bing_entities": [
+    "datetimeV2"
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "abort",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "cancel",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "disregard",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "do not do it",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "do not do that",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "don't",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "don't do it",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "don't do that",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "get info about bill gates",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 15,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "get info about michael jordan",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 15,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "get info about paris",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 15,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "get info about satya nadella",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 15,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "get info about tom hanks",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 15,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "get information about london",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 22,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "get information about michael jordan",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 22,
+          "endPos": 35
+        }
+      ]
+    },
+    {
+      "text": "get information about microsoft",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 22,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "get information about paris",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 22,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "get information about satya nadella",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 22,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "get information about tom hanks",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 22,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "get news from 12/25/2017",
+      "intent": "SearchNews",
+      "entities": []
+    },
+    {
+      "text": "get news from a month ago",
+      "intent": "SearchNews",
+      "entities": []
+    },
+    {
+      "text": "get news from last month",
+      "intent": "SearchNews",
+      "entities": []
+    },
+    {
+      "text": "get news from last year",
+      "intent": "SearchNews",
+      "entities": []
+    },
+    {
+      "text": "get news from yesterday",
+      "intent": "SearchNews",
+      "entities": []
+    },
+    {
+      "text": "good afternoon",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good evening",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good morning",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "good night",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hello bot",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "help",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help me",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help me please",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "help please",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "hi",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hi bot",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "hiya",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "how are you",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "how are you doing today?",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "how are you doing?",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "how are you today?",
+      "intent": "Greeting",
+      "entities": []
+    },
+    {
+      "text": "i am stuck",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "i like pickles",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i need a sandwich",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "i would like to cancel",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "i'm stuck",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "never mind",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "please cancel",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "please disregard",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "please help me",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "please stop",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "stop",
+      "intent": "Cancel",
+      "entities": []
+    },
+    {
+      "text": "stop and pick up the leaves",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "tell me about london",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 14,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "tell me about michael jordan",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 14,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "tell me about microsoft",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 14,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "tell me about paris",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 14,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "tell me about satya nadella",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 14,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "tell me about tom hanks",
+      "intent": "DiscoverContent",
+      "entities": [
+        {
+          "entity": "SearchQuery",
+          "startPos": 14,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "tell me what was happening on 5/22/2015",
+      "intent": "SearchNews",
+      "entities": []
+    },
+    {
+      "text": "tell me what was happening yesterday",
+      "intent": "SearchNews",
+      "entities": []
+    },
+    {
+      "text": "what can i say",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what can you do",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what can you help me with",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what do i do now?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "what do i do?",
+      "intent": "Help",
+      "entities": []
+    },
+    {
+      "text": "why doesn't this work ?",
+      "intent": "Help",
+      "entities": []
+    }
+  ]
+}
