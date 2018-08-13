@@ -117,7 +117,7 @@ module.exports = {
 
                 }
                 else {
-                    session.send('There was a problem processing your request');
+                    session.send('There was a problem processing your requests');
                 }
 
             });
